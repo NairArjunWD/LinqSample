@@ -1,0 +1,12 @@
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/bin/Debug/netcoreapp3.1/Features.deps.json
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/bin/Debug/netcoreapp3.1/Features.dll
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/bin/Debug/netcoreapp3.1/Features.pdb
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/obj/Debug/netcoreapp3.1/Features.csprojAssemblyReference.cache
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/obj/Debug/netcoreapp3.1/Features.csproj.CoreCompileInputs.cache
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/obj/Debug/netcoreapp3.1/Features.AssemblyInfoInputs.cache
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/obj/Debug/netcoreapp3.1/Features.AssemblyInfo.cs
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/obj/Debug/netcoreapp3.1/Features.dll
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/obj/Debug/netcoreapp3.1/Features.pdb
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/bin/Debug/netcoreapp3.1/Features.runtimeconfig.json
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/bin/Debug/netcoreapp3.1/Features.runtimeconfig.dev.json
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Features/obj/Debug/netcoreapp3.1/Features.genruntimeconfig.cache
