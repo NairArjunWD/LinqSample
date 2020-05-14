@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+// using System.Linq;
 
 namespace Features
 {
@@ -18,6 +18,12 @@ namespace Features
             {
                 new Employee { Id = 3, Name = "Alex" } 
             };
+
+            IEnumerator<Employee> enumerator = developers.GetEnumerator();
+            while (enumerator.MoveNext()) 
+            {
+                Console.WriteLine(enumerator.Current.Name);
+            }
         }
     }
 }
