@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-// using System.Linq;
+using System.Linq;
 
 namespace Features
 {
@@ -19,12 +19,22 @@ namespace Features
                 new Employee { Id = 3, Name = "Alex" } 
             };
 
-            Console.WriteLine(sales.Count());
-            IEnumerator<Employee> enumerator = sales.GetEnumerator();
-            while (enumerator.MoveNext()) 
+            // Console.WriteLine(developers.Count());
+            // IEnumerator<Employee> enumerator = developers.GetEnumerator();
+            // while (enumerator.MoveNext()) 
+            // {
+            //     Console.WriteLine(enumerator.Current.Name);
+            // }
+
+            foreach (var employee in developers.Where(NameStartsWithS))
             {
-                Console.WriteLine(enumerator.Current.Name);
+                Console.WriteLine(employee.Name);
             }
+        }
+
+        private static bool NameStartsWithS(Employee employee)
+        {
+            return employee.Name.StartsWith("S");
         }
     }
 }
