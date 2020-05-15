@@ -41,7 +41,12 @@ namespace Features
             //     Console.WriteLine(enumerator.Current.Name);
             // }
 
-            foreach (var employee in developers.Where(NameStartsWithS))
+            // foreach (var employee in developers.Where(NameStartsWithS))
+            // {
+            //     Console.WriteLine(employee.Name);
+            // }
+
+            foreach (var employee in developers.Where(e => e.Name.Length == 5).OrderBy(e => e.Name))
             {
                 Console.WriteLine(employee.Name);
             }
