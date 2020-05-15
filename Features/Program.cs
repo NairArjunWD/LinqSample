@@ -57,7 +57,7 @@ namespace Features
 
             var query2 = from developer in developers
                          where developer.Name.Length == 5
-                         orderby developer.Name
+                         orderby developer.Name descending
                          select developer;
 
             foreach (var employee in query2)
