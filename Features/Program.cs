@@ -8,11 +8,21 @@ namespace Features
     {
         static void Main(string[] args)
         {
-            Func<int, int> square = x => x * x;
-            Func<int, int, int> add = (x, y) => x + y;
+            // Func<int, int> square = x => x * x;
+            // Func<int, int, int> add = (x, y) => x + y;
 
-            Console.WriteLine(square(add(3, 5)));
-            
+            // Console.WriteLine(square(add(3, 5)));
+
+            Func<int, int> square = x => x * x;
+            Func<int, int, int> add = (x, y) => 
+            {
+                int temp = x + y;
+                return temp;
+            };
+            Action<int> write = x => Console.WriteLine(x);
+
+            write(square(add(3, 5)));
+
             IEnumerable<Employee> developers = new Employee[]
             {
                 new Employee { Id = 1, Name = "Scott" },
