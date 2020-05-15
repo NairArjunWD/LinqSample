@@ -19,6 +19,7 @@ namespace Features
                 new Employee { Id = 3, Name = "Alex" } 
             };
 
+            Console.WriteLine(sales.Count());
             IEnumerator<Employee> enumerator = sales.GetEnumerator();
             while (enumerator.MoveNext()) 
             {
