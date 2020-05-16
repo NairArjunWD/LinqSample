@@ -1,0 +1,12 @@
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/obj/Debug/netcoreapp3.1/Queries.csprojAssemblyReference.cache
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/obj/Debug/netcoreapp3.1/Queries.csproj.CoreCompileInputs.cache
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/obj/Debug/netcoreapp3.1/Queries.AssemblyInfoInputs.cache
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/obj/Debug/netcoreapp3.1/Queries.AssemblyInfo.cs
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/bin/Debug/netcoreapp3.1/Queries.deps.json
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/bin/Debug/netcoreapp3.1/Queries.runtimeconfig.json
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/bin/Debug/netcoreapp3.1/Queries.runtimeconfig.dev.json
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/bin/Debug/netcoreapp3.1/Queries.dll
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/bin/Debug/netcoreapp3.1/Queries.pdb
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/obj/Debug/netcoreapp3.1/Queries.dll
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/obj/Debug/netcoreapp3.1/Queries.pdb
+/Users/arjunnair/Desktop/csharp/course-lessons/LinqSample/Queries/obj/Debug/netcoreapp3.1/Queries.genruntimeconfig.cache
