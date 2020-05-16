@@ -16,14 +16,15 @@ namespace Queries
                 new Movie { Title = "Star Wars V", Rating = 8.9f, Year = 1980}
             };
 
-            var query = movies.Where(m => m.Year > 2000).ToList();
+            var query = movies.Where(m => m.Year > 2000)
+                .OrderByDescending(m => m.Rating);
 
             // foreach (var movie in query)
             // {
             //     Console.WriteLine(movie.Title);
             // }
 
-            Console.WriteLine(query.Count());
+            // Console.WriteLine(query.Count());
             var enumerator = query.GetEnumerator();
             while (enumerator.MoveNext())
             {
