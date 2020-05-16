@@ -16,11 +16,18 @@ namespace Queries
                 new Movie { Title = "Star Wars V", Rating = 8.9f, Year = 1980}
             };
 
-            var query = movies.Filter(m => m.Year > 2000);
+            var query = movies.Filter(m => m.Year > 2000)
+                            .Take(1);
 
-            foreach (var movie in query)
+            // foreach (var movie in query)
+            // {
+            //     Console.WriteLine(movie.Title);
+            // }
+
+            var enumerator = query.GetEnumerator();
+            while (enumerator.MoveNext())
             {
-                Console.WriteLine(movie.Title);
+                Console.WriteLine(enumerator.Current.Title);
             }
         }
     }
