@@ -16,7 +16,7 @@ namespace Queries
                 new Movie { Title = "Star Wars V", Rating = 8.9f, Year = 1980}
             };
 
-            var query = movies.Filter(m => m.Year > 2000);
+            var query = movies.Filter(m => m.Year > 2000).ToList();
 
             // foreach (var movie in query)
             // {
